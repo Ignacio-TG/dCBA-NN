@@ -4,7 +4,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 import numpy as np
 
-from plot_results import plot_results, plot_results_S
+from .plot_results import plot_results, plot_results_S
 from NN_functions import integrate_rk4, loss_rk4, train, train_multi_MS, loss_MS, loss_MS_Sv, train_multi_MS_S, loss_rk4_S, loss_simple, integrate_rk4_V2, loss_rk4_V2
 from Neural_architecture import NeuralNetwork
 
